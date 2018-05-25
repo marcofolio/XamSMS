@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamSMS" x:Class="XamSMS.MainPage">
+    <StackLayout>
+        <Label Text="Xamarin.Essentials SMS" FontSize="Large" HorizontalOptions="Center" Margin="20" />
+        <Entry x:Name="messageEntry" Placeholder="Message" WidthRequest="200" HorizontalOptions="CenterAndExpand" />
+        <Entry x:Name="recipientEntry" Placeholder="Recipient" WidthRequest="200" HorizontalOptions="CenterAndExpand" />
+        <Button x:Name="submitBtn" Clicked="submitBtn_Clicked" Text="Send SMS" HorizontalOptions="Center" />
+        <Label Text="This sample uses Xamarin.Essentials to send an SMS in a cross-platform manner with Xamarin.Forms. Demo works on a Android Simulator and physical iOS or Android device. Created by Marcofolio.net." FontSize="Small" HorizontalOptions="Center" Margin="50" />
+    </StackLayout>
+</ContentPage>
